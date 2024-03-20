@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SampleNewsApp</string>
+    <string name="loading">Please wait loading..</string>
+    <string name="retry">Retry Again</string>
+
+    <string name="top_headlines">Top Headlines</string>
+    <string name="no_internet">No internet available</string>
+</resources>
