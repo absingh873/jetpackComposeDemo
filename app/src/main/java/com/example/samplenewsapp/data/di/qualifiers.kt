@@ -1,4 +1,4 @@
-package com.example.samplenewsapp.di
+package com.example.samplenewsapp.data.di
 
 import javax.inject.Qualifier
 
@@ -10,7 +10,3 @@ annotation class BaseUrl
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class NetworkApiKey
-
-@Qualifier
-@Retention(AnnotationRetention.BINARY)
-annotation class DatabaseName

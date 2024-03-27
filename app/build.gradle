@@ -35,7 +35,7 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField("String", "API_KEY", "\"2398778a16b542909abdec6c4d2b3eca\"")
+            buildConfigField("String", "API_KEY", "\"\$2a\$10\$Jvu3HT0JfDI2L8brCQU1O.ZqoZt6s69C1d/oy/o4updxWeum3a9Qa\"")
             //FIXME remove the string and add your api key
         }
 
@@ -84,6 +84,7 @@ dependencies {
     //Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.11.0'
 
     //Dagger-Hilt
     var daggerversion="2.48"
