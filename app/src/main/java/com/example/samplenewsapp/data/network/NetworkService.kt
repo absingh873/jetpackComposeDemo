@@ -2,10 +2,8 @@ package com.example.samplenewsapp.data.network
 
 import com.example.samplenewsapp.data.model.detail.ArticleDetailDTO
 import com.example.samplenewsapp.data.model.list.ArticleListResponseDTO
-import com.example.samplenewsapp.presentation.navigation.ArticleNavigationItem
 import retrofit2.http.GET
 import retrofit2.http.Path
-import retrofit2.http.Query
 import javax.inject.Singleton
 
 /*

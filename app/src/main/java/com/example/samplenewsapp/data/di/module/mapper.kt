@@ -12,14 +12,6 @@ import com.example.samplenewsapp.domain.model.list.Source
  * null value and provide default value to object if null from server
  */
 
-fun ArticleDTO.toDomain()=ArticleDetail (
-            imageUrl = imageUrl?:"",
-            source = source.toDomain()?:Source("",""),
-            title = title?:"",
-            description = description?:"",
-            url =url?:""
-        )
-
 fun List<ArticleDTO>.toDomain() : List<Article>{
     return map{
         Article(
@@ -32,17 +24,6 @@ fun List<ArticleDTO>.toDomain() : List<Article>{
         )
     }
 }
-fun SourceDTO.toDomain()=Source(
-    id=id?:"",
-    name = name?:""
-)
-fun Article.toArticleDetail()=ArticleDetail(
-    imageUrl = imageUrl?:"",
-    source = source?:Source("",""),
-    title = title?:"",
-    description = description?:"",
-    url =url?:""
-)
 fun ArticleDetailDTO.toDomain()=ArticleDetail(
     imageUrl = imageUrl?:"",
     source = source?:Source("",""),

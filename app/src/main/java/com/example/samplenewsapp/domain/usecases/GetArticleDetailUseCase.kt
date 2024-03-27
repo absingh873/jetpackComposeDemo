@@ -2,8 +2,6 @@ package com.example.samplenewsapp.domain.usecases
 
 import com.example.samplenewsapp.common.Resource
 import com.example.samplenewsapp.domain.model.detail.ArticleDetail
-import com.example.samplenewsapp.domain.model.list.Article
-import com.example.samplenewsapp.domain.model.list.Source
 import com.example.samplenewsapp.domain.repository.GetArticleDetailRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

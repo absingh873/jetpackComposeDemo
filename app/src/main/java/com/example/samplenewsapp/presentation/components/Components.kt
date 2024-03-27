@@ -23,8 +23,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.example.samplenewsapp.R
-import com.example.samplenewsapp.data.di.module.toArticleDetail
-import com.example.samplenewsapp.domain.model.detail.ArticleDetail
 import com.example.samplenewsapp.domain.model.list.Article
 
 @Composable

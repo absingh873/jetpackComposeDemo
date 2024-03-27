@@ -1,8 +1,5 @@
 package com.example.samplenewsapp.data.repository
 
-import android.util.Log
-import com.example.samplenewsapp.BuildConfig
-import com.example.samplenewsapp.common.Constants
 import com.example.samplenewsapp.data.di.module.toDomain
 import com.example.samplenewsapp.data.network.NetworkService
 import com.example.samplenewsapp.domain.model.list.Article
